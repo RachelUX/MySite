@@ -1,0 +1,109 @@
+
+@media screen and (min-width: 568px) {
+        h1 {
+    font-size:100px;
+    }
+    h2 {
+      font-size:40px;
+    }
+    h3, hr {
+      font-size:40px;
+    }
+}
+@media screen and (max-width: 568px) {
+        h1 {
+    font-size:75px;
+    }
+    h2 {
+      font-size:30px;
+    }
+    h3, hr {
+      font-size:40px;
+    }
+}
+.container-fluid {
+    width: 75%;
+}
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 200;
+  color: #5B1142;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #83888C;
+}
+h3 {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 200;
+  color: #83888C;
+}
+p {
+  /*font-size: 2vmin;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #83888C;
+}
+
+hr.styleHeart {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr.styleHeart:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #ffffff;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+hr.styleDouble {
+	border-top: 4px double #5B1142;
+	text-align: center;
+}
+hr.styleDouble:after {
+	content: '9.16.17';
+	display: inline-block;
+	position: relative;
+	top: -35px;
+	padding: 0 20px;
+	background: #ffffff;
+	color: #8c8b8b;
+
+  font-family: 'Great Vibes', cursive;
+}
+
+.header {
+  padding-top: 15%;
+}
+.script {
+  font-family: 'Great Vibes', cursive;
+}
+
+.name {
+  margin-top: -20px;
+  letter-spacing: 5px;
+}
+.date {
+  margin-top: 15px;
+}
+
+.detail-text {
+  font-size: 16px;
+  bottom: 50px;
+  color:#5B1142;
+  text-transform: uppercase;
+  padding-top: 20px;
+  letter-spacing: 5px;
+  /*position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;*/
+}
+.heart {
+  color:#9084A8;
+  padding-top: 20px;
+}
