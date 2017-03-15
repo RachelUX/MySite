@@ -21,6 +21,13 @@
       font-size:40px;
     }
 }
+@media screen and (min-width: 768px) {
+.rwd-break {
+    display: none;
+  }
+}
+
+
 .container-fluid {
     width: 75%;
 }
@@ -104,6 +111,11 @@ hr.styleDouble:after {
   right: 0;*/
 }
 .heart {
-  color:#9084A8;
-  padding-top: 20px;
+  height: 15px;
+  width:auto;
+}
+
+.row-space-below {
+    padding-top: 20px;
+
 }
