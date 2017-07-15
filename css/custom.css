@@ -4,10 +4,10 @@
     font-size:100px;
     }
     h2 {
-      font-size:40px;
+      font-size:20px;
     }
     h3, hr {
-      font-size:40px;
+      font-size:30px;
     }
 }
 @media screen and (max-width: 568px) {
@@ -15,10 +15,10 @@
     font-size:75px;
     }
     h2 {
-      font-size:30px;
+      font-size:18px;
     }
     h3, hr {
-      font-size:40px;
+      font-size:25px;
     }
 }
 @media screen and (min-width: 768px) {
@@ -26,31 +26,47 @@
     display: none;
   }
 }
-
-
+@font-face {
+    font-family: 'Flamingo-OT-Script';
+    src: url(fonts/Flamingo-OT-Script.tff) format("truetype");
+}
 .container-fluid {
-    width: 75%;
+    padding:0px;
 }
 h1 {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Flamingo-OT-Script', cursive;
   font-weight: 200;
-  color: #5B1142;
+  color: #330033;
+  font-size: 35px;
 }
+/*.rachel {
+  padding-top: 30px;
+}
+.andsign {
+  font-size:20px;
+  font-family: 'adobe-garamond-pro', serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #666666;
+  padding-bottom: 5px;
+  margin-top: 0px;
+}*/
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'adobe-garamond-pro', serif;
   font-weight: 300;
   color: #83888C;
 }
 h3 {
-  font-family: 'Great Vibes', cursive;
-  font-weight: 200;
-  color: #83888C;
+  font-family: 'Flamingo-OT-Script', cursive;
+  color: #3e2947;
+  padding-bottom: 10px;
 }
 p {
   /*font-size: 2vmin;*/
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'adobe-garamond-pro', sans-serif;
   font-weight: 300;
   color: #83888C;
+  font-size: 18px;
 }
 
 hr.styleHeart {
@@ -79,15 +95,26 @@ hr.styleDouble:after {
 	padding: 0 20px;
 	background: #ffffff;
 	color: #8c8b8b;
-
   font-family: 'Great Vibes', cursive;
 }
 
 .header {
-  padding-top: 15%;
+  /*padding-top: 15%;*/
 }
-.script {
-  font-family: 'Great Vibes', cursive;
+.header-img {
+  width:100%;
+}
+.header-names {
+  padding-top: 50px;
+  width:100%;
+  margin-bottom: -30px;
+}
+.header-date {
+  padding-top: 50px;
+  width:100%;
+}
+.knot {
+  margin-top: -50px;
 }
 
 .name {
@@ -98,13 +125,14 @@ hr.styleDouble:after {
   margin-top: 15px;
 }
 
-.detail-text {
-  font-size: 16px;
-  bottom: 50px;
-  color:#5B1142;
-  text-transform: uppercase;
-  padding-top: 20px;
-  letter-spacing: 5px;
+.welcome-text {
+  font-size:16px;
+  font-family: 'adobe-garamond-pro', serif;
+  color:#CCCCCC;
+  margin-bottom: -10px;
+  /*text-transform: uppercase;*/
+  /*padding-top: 20px;
+  letter-spacing: 5px;*/
   /*position: fixed;
   bottom: 50px;
   left: 0;
@@ -118,4 +146,38 @@ hr.styleDouble:after {
 .row-space-below {
     padding-top: 20px;
 
+}
+.bkg-purple {
+  background-color: #3e2947;
+  margin-top: 50px;
+}
+.block-color {
+  padding: 50px;
+}
+.block-color-half {
+  padding: 0px 50px 50px 50px;
+}
+a {
+  color:#606695;
+}
+.bold{
+font-weight: 600;
+}
+.footer {
+  height:30px;
+}
+.rings {
+  height:35px;
+  width: auto;
+  margin-bottom: -20px;
+}
+.drinks {
+  height:45px;
+  width: auto;
+  margin-bottom: -5px;
+}
+.bell {
+  height:28px;
+  width: auto;
+  margin-bottom: -20px;
 }
