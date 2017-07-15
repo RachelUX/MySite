@@ -15,7 +15,7 @@
     font-size:75px;
     }
     h2 {
-      font-size:18px;
+      font-size:14px;
     }
     h3, hr {
       font-size:25px;
@@ -169,15 +169,18 @@ font-weight: 600;
 .rings {
   height:35px;
   width: auto;
-  margin-bottom: -20px;
+  margin-bottom: -10px;
 }
 .drinks {
   height:45px;
   width: auto;
-  margin-bottom: -5px;
+  margin-bottom: 0px;
 }
 .bell {
   height:28px;
   width: auto;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
+}
+.sections {
+  height: 60px;
 }
